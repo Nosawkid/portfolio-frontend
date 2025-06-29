@@ -38,7 +38,7 @@ export default function App() {
       //   },
       //   body: JSON.stringify({ message: userMessage }),
       // });
-      const response = await fetch(`${import.meta.envVITE_API_URL}/chat`, {
+      const response = await fetch(`${import.meta.env.VITE_API_URL}/chat`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
